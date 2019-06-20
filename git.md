@@ -26,6 +26,7 @@
 7. 把密钥放到github上
 8. git remote add origin git@github.com:cxtao666/vue.git
    git push -u origin master
+   git push origin master  以后推送
    提交代码到git上
 9. git clone git@github.com:cxtao666/vue.git  把代码克隆到本地
 10. 小技巧(命令行右键等于复制)
