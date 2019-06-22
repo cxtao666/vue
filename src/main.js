@@ -9,7 +9,10 @@ import { Header } from 'mint-ui'
 Vue.use(vuerouter)
 import "./lib/mui/mui/css/icons-extra.css"
 
+import { Swipe, SwipeItem } from 'mint-ui';
 
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
 
 import router from './router.js'
 
